@@ -27,7 +27,7 @@ Resources:
         #! /bin/bash
         dnf update -y
         dnf install httpd -y
-        FOLDER="https://raw.githubusercontent.com/suemeyyecevik/101-kittens-carousel-static-website-ec2/refs/heads/main/static-web"
+        FOLDER="https://raw.githubusercontent.com/suemeyyecevik/kittens-carousel-static-/refs/heads/main"
         cd /var/www/html
         wget ${FOLDER}/index.html
         wget ${FOLDER}/ondia.png
