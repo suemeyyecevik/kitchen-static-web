@@ -27,7 +27,7 @@ Resources:
         #! /bin/bash
         dnf update -y
         dnf install httpd -y
-        FOLDER=""
+        FOLDER="https://raw.githubusercontent.com/suemeyyecevik/kitchen-static-web/refs/heads/main/static-web"
         cd /var/www/html
         wget ${FOLDER}/index.html
         wget ${FOLDER}/sümeyyes-kitchen.jpg
