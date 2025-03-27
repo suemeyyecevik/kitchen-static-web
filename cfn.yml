@@ -30,7 +30,7 @@ Resources:
         FOLDER="https://raw.githubusercontent.com/suemeyyecevik/kittens-carousel-static-/refs/heads/main/static-web"
         cd /var/www/html
         wget ${FOLDER}/index.html
-        wget ${FOLDER}/sümeyyes-kitchen.png
+        wget ${FOLDER}/sümeyyes-kitchen.jpg
         wget ${FOLDER}/4.jpg
         wget ${FOLDER}/3.jpg
         wget ${FOLDER}/1.jpg
