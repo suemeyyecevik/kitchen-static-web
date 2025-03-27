@@ -27,13 +27,13 @@ Resources:
         #! /bin/bash
         dnf update -y
         dnf install httpd -y
-        FOLDER="https://raw.githubusercontent.com/suemeyyecevik/kittens-carousel-static-/refs/heads/main"
+        FOLDER="https://raw.githubusercontent.com/suemeyyecevik/kittens-carousel-static-/refs/heads/main/static-web"
         cd /var/www/html
         wget ${FOLDER}/index.html
-        wget ${FOLDER}/ondia.png
-        wget ${FOLDER}/cat0.jpg
-        wget ${FOLDER}/cat1.jpg
-        wget ${FOLDER}/cat2.jpg
+        wget ${FOLDER}/sümeyyes-kitchen.png
+        wget ${FOLDER}/4.jpg
+        wget ${FOLDER}/3.jpg
+        wget ${FOLDER}/1.jpg
         systemctl start httpd
         systemctl enable httpd
 
