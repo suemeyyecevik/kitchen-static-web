@@ -14,7 +14,7 @@ Resources:
 
       InstanceType: "t2.micro"
 
-      KeyName: "suemeyye"
+      KeyName: "(your keypairname)"
 
       SecurityGroupIds:
         - !Ref MySecGrp
